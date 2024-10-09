@@ -1,0 +1,18 @@
+tokens:
+      - chainName: base
+        standard: EvmHypCollateral
+        decimals: 18
+        symbol: BENTO
+        name: Bento
+        addressOrDenom: "0x0106e5852BdE87c0380957213F65C3A636ab61EA"
+        collateralAddressOrDenom: "0x9DE16c805A3227b9b92e39a446F9d56cf59fe640"
+        connections:
+          - token: ethereum|mantapacific|0x0D2bf0237f62543933CE2B959aC7EB06a195497c
+      - chainName: mantapacific
+        standard: EvmHypSynthetic
+        decimals: 18
+        symbol: BENTO
+        name: Bento
+        addressOrDenom: "0x0D2bf0237f62543933CE2B959aC7EB06a195497c"
+        connections:
+          - token: ethereum|base|0x0106e5852BdE87c0380957213F65C3A636ab61EA

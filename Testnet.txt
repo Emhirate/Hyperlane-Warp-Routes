@@ -1,0 +1,56 @@
+tokens:
+      - chainName: arbitrumsepolia
+        standard: EvmHypNative
+        decimals: 18
+        symbol: ETH
+        name: Ether
+        addressOrDenom: "0x9E97110C42fe6151350C8cB9B6aC5C87EBa6c40d"
+        connections:
+          - token: ethereum|basesepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
+          - token: ethereum|holesky|0xc118010Fd021C582F3905E96B3E59d8E0E0E87e8
+          - token: ethereum|optimismsepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
+          - token: ethereum|soneiumtestnet|0x3B770E3d95Fcbfd8E2228349cF7eCbe25b4A4184
+      - chainName: basesepolia
+        standard: EvmHypNative
+        decimals: 18
+        symbol: ETH
+        name: Ether
+        addressOrDenom: "0xBcC60657A8B4F552B6c62153267644EaBf053C60"
+        connections:
+          - token: ethereum|arbitrumsepolia|0x9E97110C42fe6151350C8cB9B6aC5C87EBa6c40d
+          - token: ethereum|holesky|0xc118010Fd021C582F3905E96B3E59d8E0E0E87e8
+          - token: ethereum|optimismsepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
+          - token: ethereum|soneiumtestnet|0x3B770E3d95Fcbfd8E2228349cF7eCbe25b4A4184
+      - chainName: holesky
+        standard: EvmHypNative
+        decimals: 18
+        symbol: ETH
+        name: Ether
+        addressOrDenom: "0xc118010Fd021C582F3905E96B3E59d8E0E0E87e8"
+        connections:
+          - token: ethereum|arbitrumsepolia|0x9E97110C42fe6151350C8cB9B6aC5C87EBa6c40d
+          - token: ethereum|basesepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
+          - token: ethereum|optimismsepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
+          - token: ethereum|soneiumtestnet|0x3B770E3d95Fcbfd8E2228349cF7eCbe25b4A4184
+      - chainName: optimismsepolia
+        standard: EvmHypNative
+        decimals: 18
+        symbol: ETH
+        name: Ether
+        addressOrDenom: "0xBcC60657A8B4F552B6c62153267644EaBf053C60"
+        connections:
+          - token: ethereum|arbitrumsepolia|0x9E97110C42fe6151350C8cB9B6aC5C87EBa6c40d
+          - token: ethereum|basesepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
+          - token: ethereum|holesky|0xc118010Fd021C582F3905E96B3E59d8E0E0E87e8
+          - token: ethereum|soneiumtestnet|0x3B770E3d95Fcbfd8E2228349cF7eCbe25b4A4184
+      - chainName: soneiumtestnet
+        standard: EvmHypNative
+        decimals: 18
+        symbol: ETH
+        name: Ether
+        addressOrDenom: "0x3B770E3d95Fcbfd8E2228349cF7eCbe25b4A4184"
+        connections:
+          - token: ethereum|arbitrumsepolia|0x9E97110C42fe6151350C8cB9B6aC5C87EBa6c40d
+          - token: ethereum|basesepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
+          - token: ethereum|holesky|0xc118010Fd021C582F3905E96B3E59d8E0E0E87e8
+          - token: ethereum|optimismsepolia|0xBcC60657A8B4F552B6c62153267644EaBf053C60
